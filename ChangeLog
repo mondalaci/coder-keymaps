@@ -1,0 +1,61 @@
+2006-08-22  László Monda  <laci@monda.hu>
+
+	* chmap (version): Expand tilde in the path.
+
+2005-11-18  László Monda  <laci@monda.hu>
+
+	* README.hu: Remove unnecessary spaces.
+
+	* chmap (print_version): Print the script name instead of the
+	project name.
+	(advance_map): Handle the situation when chmap-keymap-list.conf
+	gets edited in a way that the currently active map is no present
+	in it gracefully.
+	(change_map): Add a space to the string to properly display.
+
+2005-09-11  László Monda  <laci@monda.hu>
+
+	* README: Minor corrections and improvements in many files.
+
+2005-05-18  László Monda  <laci@monda.hu>
+
+	* chmap: Use relative 'etc' instead of 'share'.
+
+2004-12-28  László Monda  <laci@monda.hu>
+
+	* chmap-keymap-list.conf: Add configuration file.
+
+	* chmap: Rewrite in python to clarify the code and make it
+	configurable.
+
+	* keymaps: Regroup the more descriptively renamed keymaps in this
+	directory.
+
+	* install.py: Add file.
+
+2002-12-13  László Monda  <laci@monda.hu>
+
+	* Release version 0.3pre1
+
+2002-11-24  László Monda  <laci@monda.hu>
+
+	* Replace menu key with Mode_switch in every map.
+
+2002-11-05  László Monda  <laci@monda.hu>
+
+	* Fix a bug in chmap script.
+
+2002-10-05  László Monda  <laci@monda.hu>
+
+	* Release version 0.2
+
+2002-10-04  László Monda  <laci@monda.hu>
+
+	* README.hu: Improve documentation.
+
+	* README: Add English documentation based on the Hungarian
+	documentation.
+
+2002-09-24  László Monda  <laci@monda.hu>
+
+	* Release version 0.1
