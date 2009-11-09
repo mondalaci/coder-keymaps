@@ -5,7 +5,7 @@
 ! 	xmodmap.us-101: Standard key mapping for XFree86 (for US keyboards).
 !	xmodmap.hu-lat2: Latin-2 mapping.
 !
-! You can use the windoze keys to get the US keysysms of the
+! You can use the windoze keys to get the Hungarian keysysms of the
 ! specific keys.
 ! Scroll lock is the mode locking key.
 !
@@ -20,15 +20,15 @@ clear    mod5
 !
 keycode   8 =
 keycode   9 = Escape
-keycode  10 = 1 exclam
-keycode  11 = 2 at
-keycode  12 = 3 numbersign
-keycode  13 = 4 dollar
-keycode  14 = 5 percent
-keycode  15 = 6 asciicircum
-keycode  16 = 7 ampersand
-keycode  17 = 8 asterisk
-keycode  18 = 9 parenleft
+keycode  10 = 1 exclam F1
+keycode  11 = 2 at F2
+keycode  12 = 3 numbersign F3
+keycode  13 = 4 dollar F4
+keycode  14 = 5 percent F5
+keycode  15 = 6 asciicircum F6
+keycode  16 = 7 ampersand F7
+keycode  17 = 8 asterisk F8
+keycode  18 = 9 parenleft F9
 keycode  19 = odiaeresis Odiaeresis 0 parenright
 keycode  20 = udiaeresis Udiaeresis minus underscore
 keycode  21 = oacute Oacute equal plus
@@ -39,11 +39,11 @@ keycode  25 = w W
 keycode  26 = e E
 keycode  27 = r R
 keycode  28 = t T
-keycode  29 = y Y
-keycode  30 = u U
-keycode  31 = i I
-keycode  32 = o O
-keycode  33 = p P
+keycode  29 = y Y Prior
+keycode  30 = u U Home
+keycode  31 = i I Up Up
+keycode  32 = o O End End
+keycode  33 = p P Delete Delete
 keycode  34 = odoubleacute Odoubleacute bracketleft braceleft
 keycode  35 = uacute Uacute bracketright braceright
 keycode  36 = Return
@@ -53,10 +53,10 @@ keycode  39 = s S
 keycode  40 = d D
 keycode  41 = f F
 keycode  42 = g G
-keycode  43 = h H
-keycode  44 = j J
-keycode  45 = k K
-keycode  46 = l L
+keycode  43 = h H Next
+keycode  44 = j J Left
+keycode  45 = k K Down
+keycode  46 = l L Right
 keycode  47 = eacute Eacute semicolon colon
 keycode  48 = aacute Aacute apostrophe quotedbl
 keycode  49 = iacute Iacute grave asciitilde
@@ -67,11 +67,11 @@ keycode  53 = x X
 keycode  54 = c C
 keycode  55 = v V
 keycode  56 = b B
-keycode  57 = n N
-keycode  58 = m M
-keycode  59 = comma less
-keycode  60 = period greater
-keycode  61 = slash question
+keycode  57 = n N Escape
+keycode  58 = m M Insert
+keycode  59 = comma less F12
+keycode  60 = period greater F11
+keycode  61 = slash question F10
 keycode  62 = Shift_R
 keycode  63 = KP_Multiply
 keycode  64 = Alt_L Meta_L
