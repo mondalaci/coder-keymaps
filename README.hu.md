@@ -68,6 +68,6 @@ Miután minden úgy működik ahogy azt elvártad, hozzárendelheted a chmap-ot 
 
 2) Nyisd meg az útvonalat: /apps/metacity/global_keybindings
 
-3) Keress "run_command_"-dal kezdődő kulcsnevet, ami egy számmal ér véget (hívjuk ezt a számot N-nek), amely kulcsnak az értéke "disabled".
+3) Keress "run_command"-dal kezdődő kulcsnevet, ami egy számmal ér véget (hívjuk ezt a számot N-nek), amely kulcsnak az értéke "disabled".
 
 4) Állítsd be a /apps/metacity/keybinding_commands/command_N (helyettesítsd N-t az előző számmal) kulcsot a "chmap" értékre.
