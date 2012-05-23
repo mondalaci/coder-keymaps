@@ -73,6 +73,6 @@ a hotkey, like Ctrl-Alt-Shift-J, do the following:
 
 2) Open the path: /apps/metacity/global_keybindings
 
-3) Search for a key with a name that begins with "run_command_" and ends with a number (let's call it N) whose value is "disabled".  Change its value to "j".
+3) Search for a key with a name that begins with "run_command" and ends with a number (let's call it N) whose value is "disabled".  Change its value to "j".
 
 4) Change the key /apps/metacity/keybinding_commands/command_N (replace N with the number above) to the value "chmap".
