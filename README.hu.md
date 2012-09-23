@@ -49,13 +49,13 @@ A munkamenet indulás beállítása
 
 GNOME alatt könnyen beállítható a munkamenet indulásakor a kezdeti billentyűzetkiosztás (az, ami a chmap-keymap-list.conf fájl elején szerepel):
 
-1) Indítsd el a gnome-session-properties alkalmazást.
+1. Indítsd el a gnome-session-properties alkalmazást.
 
-2) Válaszd ki az "Induló Programok" fület.
+2. Válaszd ki az "Induló Programok" fület.
 
-3) Nyomd meg a "Hozzáadás" gombot.
+3. Nyomd meg a "Hozzáadás" gombot.
 
-4) Írd be a "chmap -i" sort az "Induló parancs" mezőbe.
+4. Írd be a "chmap -i" sort az "Induló parancs" mezőbe.
 
 A chmap hozzárendelése az ablakkezelődhöz
 -----------------------------------------
@@ -64,10 +64,10 @@ Miután minden úgy működik ahogy azt elvártad, hozzárendelheted a chmap-ot 
 
 Én GNOME-ot használok, így csak az ezzel kapcsolatos megoldást tudom leírni.  A chmap szkriptnek az útvonaladban kell lennie ahhoz hogy működjön ebben az esetben.  Ahhoz hogy egy gyorsbillentyűhöz, például a Ctrl-Alt-Shit-J-hez rendeld, csináld a következőt:
 
-1) Indítsd el a gconf-editor alkalmazást.
+1. Indítsd el a gconf-editor alkalmazást.
 
-2) Nyisd meg az útvonalat: /apps/metacity/global_keybindings
+2. Nyisd meg az útvonalat: /apps/metacity/global_keybindings
 
-3) Keress "run_command"-dal kezdődő kulcsnevet, ami egy számmal ér véget (hívjuk ezt a számot N-nek), amely kulcsnak az értéke "disabled".
+3. Keress "run_command"-dal kezdődő kulcsnevet, ami egy számmal ér véget (hívjuk ezt a számot N-nek), amely kulcsnak az értéke "disabled".
 
-4) Állítsd be a /apps/metacity/keybinding_commands/command_N (helyettesítsd N-t az előző számmal) kulcsot a "chmap" értékre.
+4. Állítsd be a /apps/metacity/keybinding_commands/command_N (helyettesítsd N-t az előző számmal) kulcsot a "chmap" értékre.
