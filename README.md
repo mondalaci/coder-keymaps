@@ -78,3 +78,25 @@ a hotkey, like Ctrl-Alt-Shift-J, do the following:
 3. Search for a key with a name that begins with "run_command" and ends with a number (let's call it N) whose value is "disabled".  Change its value to "j".
 
 4. Change the key /apps/metacity/keybinding_commands/command_N (replace N with the number above) to the value "chmap".
+
+Links
+-----
+
+Related Projects:
+* [Hunglish](http://lorentey.hu/project/hunglish.html.en)
+* [AutoHotKey](http://www.autohotkey.com/)
+
+Creating Custom Keyboard Layouts Using XKB:
+* [Creating custom keyboard layouts for X11 using XKB](http://hektor.umcs.lublin.pl/~mikosmul/computing/articles/custom-keyboard-layouts-xkb.html)
+* [Custom Keyboard in Linux/X11](http://people.uleth.ca/~daniel.odonnell/Blog/custom-keyboard-in-linuxx11)
+
+General XKB Documentation:
+* [An Unreliable Guide to XKB Configuration](http://www.charvolant.org/~doug/xkb/html/xkb.html)
+* [The XKB Configuration Guide](http://www.xfree86.org/current/XKB-Config.html)
+* [X Keyboard Extension from Ivan Pascal](http://pascal.tsu.ru/en/xkb/)
+* [X Keyboard Configuration Database](http://freedesktop.org/wiki/Software/XKeyboardConfig)
+
+Other Related Documentation:
+* [Wikipedia Keyboard Layout article](http://en.wikipedia.org/wiki/Keyboard_layout)
+* [Sergey Udaltsov's blog](http://blogs.gnome.org/sudaltsov)
+* [How to make Windows keys work under Linux](https://bugs.launchpad.net/gnome-control-center/+bug/12153)
