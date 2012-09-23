@@ -3,7 +3,7 @@ Coder Keymaps
 
 The Coder Keymaps project consists of hybrid keyboard maps intended chiefly for non-English programmers.
 
-_Note_: This project has been closed.  [See why](http://monda.hu/blog/2009/11/09/coder-keymaps-closed/).
+Note that this project has been closed.  [See why](http://monda.hu/blog/2009/11/09/coder-keymaps-closed/).
 
 The Problem
 -----------
